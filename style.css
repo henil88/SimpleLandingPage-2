@@ -29,8 +29,8 @@ html,body{
     /* background-color: red; */
 }
 .top-part h1{
-    font-size: 8vw;
-    line-height: 18vh;
+    font-size: 100px;
+    line-height: 110px;
 }
 .bottom-part{
     width: 100%;
@@ -49,7 +49,7 @@ html,body{
 }
 .col-par h5{
     font-weight: 450;
-    font-size: 1vw;
+    font-size: 20px;
     margin-right: .5vw;
 }
 .col1{
@@ -67,15 +67,15 @@ html,body{
 }
 .bottom-part h2{
     margin-top: 5.5vh;
-    font-size: 1.7vw;
+    font-size: 30px;
     font-weight: 800;
 }
 .bottom-part p{
     margin-top: 1vh;
-    font-size: .8vw;
+    font-size: 15px;
     font-weight:650;
     width: 60%;
-    line-height: 2.8vh;
+    line-height: 22px;
 }
 .right{
     margin-top: 10%;
@@ -94,14 +94,14 @@ html,body{
     padding: 0 9.4vw 0 1.2vw;
 }
 .prize-rate h3{
-    font-size: 1.5vw;
+    font-size: 1rem;
 }
 .rating{
     display: flex;
     align-items: center;
 }
 .rating h4{
-    font-size: 1vw;
+    font-size: 1rem;
     margin-right: .5vw;
 }
 .rating i{
@@ -117,8 +117,8 @@ html,body{
     position: absolute;
     top: 40%;
     right: 18%;
-    height: 200px;
-    width: 200px;
+    height: 20%;
+    width: 10%;
     background-color: rgba(0, 0, 0, 0.863);
     border-radius: 50%;
     color: #fff;
@@ -127,7 +127,7 @@ html,body{
     justify-content: center;
 }
 .buy h5{
-    font-size: 1.2vw;
+    font-size: 18px;
     font-weight: 450;
 }
 .txt{
@@ -140,7 +140,105 @@ html,body{
 
 }
 .txt h4{
-    font-size: 2vw;
+    font-size: 38px;
     font-weight: 550;
     rotate: -90deg;
+}
+@media (max-width:600px){
+    .main{
+       gap: 0%;
+       display: flex;
+       padding: 5vh 5vw 0vw 5vw;
+       padding-top: 5%;
+       flex-direction: column;
+    }
+    .left{
+        padding-left: 5%;
+        width: 100%;
+        height: 50%;
+    }
+    .top-part h1{
+        font-size: 18vw;
+        line-height: 12vh;
+    }
+    .bottom-part{
+        margin-top: 6vh;
+    }
+    
+    .col-par h5{
+        font-weight: 450;
+        font-size: 4vw;
+        margin-right: 1vw;
+    }
+    .col1{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: burlywood;
+        margin-right: .5vw;
+    }
+    
+    .bottom-part h2{
+        margin-top: 2.5vh;
+        font-size: 5vw;
+    }
+    .bottom-part p{
+        font-size: 3vw;
+        font-weight:650;
+        width: 100%;
+        line-height: 2vh;
+    }
+    .right{
+        margin-top: 2%;
+        width: 100%;
+        height: 49%;
+    }
+    .prize-rate{
+        padding: 0 10.2%;
+    }
+    .prize-rate h3{
+        font-size: 4.5vw;
+    }
+    .rating h4{
+        font-size: 3.5vw;
+        margin-right: 0vw;
+    }
+    .right img{
+        padding-left: 10vw;
+        width: 90%;
+        height: 90%;
+        background-size: cover;
+     
+    }
+    .buy{
+        position: absolute;
+        top: 65%;
+        left: 72%;
+        height: 90px;
+        width: 90px;
+        background-color: rgba(0, 0, 0, 0.863);
+        border-radius: 50%;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .buy h5{
+        font-size: 3vw;
+        font-weight: 450;
+    }
+    .txt{
+            width:fit-content;
+            height: 20%;
+            position: absolute;
+            top: 75%;
+            left: -11.5%;
+            /* background-color: red; */
+        
+        }
+    .txt h4{
+        font-size: 5vw;
+        font-weight: 550;
+        rotate: -90deg;
+    }
 }
